@@ -45,13 +45,13 @@
 
 # method 3
 from urllib.request import urlretrieve as retrieve
-url = "http://web.mta.info/developers/data/nyct/turnstile/turnstile_190622.txt"
+url = "http://web.mta.info/developers/data/nyct/turnstile/turnstile_190629.txt"
 # url = "http://web.mta.info/developers/data/nyct/turnstile/" + ^04 05 06$
 # //regex concat?
-retrieve(url, "June_22_2019.csv")
+retrieve(url, "June_29_2019.csv")
 
 # Saturday, June 22, 2019
-# Saturday, June 15, 2019
+# Saturday, June 15, 2019 
 # Saturday, June 08, 2019
 # Saturday, June 01, 2019
 # Saturday, May 25, 2019
